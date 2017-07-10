@@ -1,2 +1,3 @@
 # weather-app
-A sample weather app using openweathermap API
+A practice 6-day weather forecast app using openweathermap JSON API.
+
