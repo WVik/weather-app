@@ -86,7 +86,7 @@ input::placeholder{
 	position: absolute;
 	padding:10px;
 	width:100%;
-	height:60%;
+	height:58%;
 	display:flex;
 	justify-content:center;
 	visibility: hidden;
@@ -120,16 +120,67 @@ input::placeholder{
 	border-bottom: 1px solid #777;
 }
 
+.datse{
+	height: 5%;
+	width: 96%;
+	padding: 2px;
+	font-size: 20px;
+	font-weight: 500;
+	color:black;
+	display: flex;
+	justify-content:center;
+	margin:1px;
+	
+}
+
 .sun,.press,.humid{
 	font-size: 20px;
 	color:#274c5e;
 	font-weight: 500;
 	position: absolute;
 	left:5px;
+
 	
 }
+
+.sun-logo{
+	height:15%;
+	width: 20%;
+	position: absolute;
+	right:3%;
+	background: url('./sun.svg');
+	background-size: contain;
+	background-repeat:  no-repeat;
+    background-position: center center;
+}
+
+.rain-logo{
+	height:15%;
+	width: 20%;
+	position: absolute;
+	right:3%;
+	background: url('./rain.svg');
+	background-size: contain;
+	background-repeat:   no-repeat;
+    background-position: center center; 
+	
+}
+
+.cloud-logo{
+	height:15%;
+	width: 20%;
+	position: absolute;
+	right:3%;
+	background: url('./cloud.svg');
+	background-size: contain;
+	background-repeat:   no-repeat;
+    background-position: center center; 
+	
+}
+
 
 .value{
 	font-size: 25px;
 	font-weight: 500;
+
 }
